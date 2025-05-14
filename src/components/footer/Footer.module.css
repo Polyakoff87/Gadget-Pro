@@ -1,0 +1,19 @@
+.p {
+  font-size: 1.1em;
+}
+
+.vk_img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 300px) and (max-width: 920px) {
+  .p {
+    font-size: 0.7em;
+  }
+
+  .vk_img {
+    width: 20px;
+    height: 20px;
+  }
+}

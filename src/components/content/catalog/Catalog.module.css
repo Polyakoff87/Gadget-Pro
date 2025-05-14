@@ -1,0 +1,66 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+  min-height: 75vh;
+  height: max-content;
+  width: 100%;
+}
+
+.link {
+  height: max-content;
+  width: max-content;
+}
+
+.catalogCard.dark {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 200px;
+  height: auto;
+  color: var(--dark-text-color);
+  font-size: 17px;
+  align-items: center;
+  border-radius: var(--border-radius);
+  margin: 50px;
+}
+
+.catalogCard.light {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 200px;
+  height: auto;
+  color: var(--light-text-color);
+  font-size: 17px;
+  align-items: center;
+  border-radius: var(--border-radius);
+  margin: 50px;
+}
+
+.catalogCard:hover {
+  transform: scale(0.95);
+  color: var(--link-hover-color);
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: var(--border-radius);
+}
+
+@media (max-width: 1200px) {
+  .catalogCard.dark {
+    width: 130px;
+    font-size: 15px;
+    margin: 30px;
+  }
+
+  .catalogCard.light {
+    width: 130px;
+    font-size: 15px;
+    margin: 30px;
+  }
+}

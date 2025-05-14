@@ -1,0 +1,29 @@
+.header.dark {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 2em;
+  width: 100%;
+  height: auto;
+  background-color: #201f1f;
+  position: fixed;
+  top: 70px;
+  z-index: 1000;
+}
+
+.header.light {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 2em;
+  width: 100%;
+  height: auto;
+  background-color: #494848;
+  position: fixed;
+  top: 70px;
+  z-index: 1000;
+}
+
+li::marker {
+  content: "";
+}

@@ -1,0 +1,30 @@
+.basket_wrapper {
+  margin-top: 7px;
+}
+
+.basket_button {
+  height: 42px;
+  width: 42px;
+  background-color: var(--button-color);
+  background-image: url("../../../pictures/basket.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+}
+
+.basket_button:hover {
+  background-color: var(--link-hover-color);
+}
+
+.basket_output {
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .basket_output {
+    font-size: 15px;
+  }
+}

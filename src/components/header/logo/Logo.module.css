@@ -1,0 +1,31 @@
+.logo {
+  background-color: var(--button-color);
+  border-radius: var(--border-radius);
+  height: 42px;
+  font-size: 30px;
+  margin-top: 7px;
+  padding: 0 10px;
+}
+
+.logo:hover {
+  background-color: var(--link-hover-color);
+  cursor: pointer;
+}
+
+.link {
+  color: var(--light-text-color);
+}
+
+@media (max-width: 1200px) {
+  .logo {
+    font-size: 16px;
+    padding: 8px 1px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 14px;
+    padding: 10px 1px;
+  }
+}

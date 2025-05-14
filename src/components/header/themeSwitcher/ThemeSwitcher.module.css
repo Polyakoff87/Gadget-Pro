@@ -1,0 +1,33 @@
+.themeSwitcher_wrapper {
+  margin-top: 7px;
+}
+
+.themeSwitcher_button.dark {
+  height: 42px;
+  width: 42px;
+  background-color: var(--button-color);
+  background-image: url("../../../pictures/moon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+}
+
+.themeSwitcher_button.light {
+  height: 42px;
+  width: 42px;
+  background-color: var(--button-color);
+  background-image: url("../../../pictures/sun.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+}
+
+.themeSwitcher_button:hover {
+  background-color: var(--link-hover-color);
+}

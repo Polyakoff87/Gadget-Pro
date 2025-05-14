@@ -1,0 +1,30 @@
+.favorites_wrapper {
+  margin-top: 7px;
+}
+
+.favorites_button {
+  height: 42px;
+  width: 42px;
+  background-color: var(--button-color);
+  background-image: url("../../../pictures/favorites.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+}
+
+.favorites_button:hover {
+  background-color: var(--link-hover-color);
+}
+
+.favorites_output {
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .favorites_output {
+    font-size: 15px;
+  }
+}

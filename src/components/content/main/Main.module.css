@@ -1,0 +1,418 @@
+.main_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  margin-top: 55px;
+  background-image: url(../../../pictures/main_fon.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.review {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 10px;
+  background-color: var(--button-color);
+  border-radius: var(--border-radius);
+}
+
+.review:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--link-hover-color);
+}
+
+.section_wrapper.dark {
+  background-color: rgba(23, 25, 26, 0.9);
+  width: 60%;
+  height: auto;
+  margin: 50px auto;
+  border-radius: var(--border-radius);
+}
+
+.section_wrapper.light {
+  background-color: rgba(200, 205, 207, 0.9);
+  width: 60%;
+  height: auto;
+  margin: 50px auto;
+  border-radius: var(--border-radius);
+}
+
+.section_wrapper_brands.dark {
+  background-color: rgba(23, 25, 26, 0.9);
+  width: 90%;
+  height: auto;
+  margin: 50px auto;
+  border-radius: var(--border-radius);
+}
+
+.section_wrapper_categories.dark {
+  background-color: rgba(23, 25, 26, 0.9);
+  width: 90%;
+  height: auto;
+  margin: 50px auto;
+  border-radius: var(--border-radius);
+}
+
+.section_wrapper_brands.light {
+  background-color: rgba(200, 205, 207, 0.9);
+  width: 90%;
+  height: auto;
+  margin: 50px auto;
+  border-radius: var(--border-radius);
+}
+
+.section_wrapper_categories.light {
+  background-color: rgba(200, 205, 207, 0.9);
+  width: 90%;
+  height: auto;
+  margin: 50px auto;
+  border-radius: var(--border-radius);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  will-change: background-image;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  animation: hero 30s infinite;
+  border-radius: 10px 10px 0 0;
+}
+
+.promo_sony {
+  will-change: background-image;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  animation: promo_sony 30s infinite;
+  border-radius: 10px 10px 0 0;
+}
+
+.promo_asus {
+  will-change: background-image;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  animation: promo_asus 30s infinite;
+  border-radius: 10px 10px 0 0;
+}
+.bottom {
+  will-change: background-image;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  animation: bottom 30s infinite;
+  border-radius: 10px 10px 0 0;
+}
+
+.description {
+  width: 100%;
+  height: auto;
+}
+
+.main_text {
+  font-size: 2em;
+  font-family: Commissioner, Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.text {
+  font-size: 1.3em;
+  font-family: Commissioner, Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.text_bottom {
+  margin-top: 30px;
+}
+
+.section_image {
+  width: auto;
+  height: 200px;
+  margin: auto;
+  border-radius: var(--border-radius);
+}
+
+.carousel {
+  padding: 2px;
+  margin: 20px auto;
+  width: 1000px;
+}
+
+.brand_card.dark {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dark-bar-bg-color);
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  color: var(--dark-text-color);
+}
+
+.brand_card.light {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--light-bar-bg-color);
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  color: var(--light-text-color);
+}
+
+.brand_image {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  border-radius: var(--border-radius);
+}
+
+.section_card.dark {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background-color: var(--dark-bar-bg-color);
+  color: var(--dark-text-color);
+}
+
+.section_card.light {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background-color: var(--light-bar-bg-color);
+  color: var(--light-text-color);
+}
+
+.brand_card:hover {
+  transform: scale(0.95);
+  background-color: var(--link-hover-color);
+  color: #fff;
+}
+
+.section_card:hover {
+  transform: scale(0.95);
+  background-color: var(--link-hover-color);
+  color: #fff;
+}
+
+.brand_name {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+.section_name {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.carousel_title {
+  text-align: center;
+  font-size: 1.7em;
+  margin-bottom: 10px;
+}
+
+@keyframes hero {
+  0% {
+    background-image: url(../../../pictures/hero_section/32W30ISX5NeS.jpg);
+  }
+  25% {
+    background-image: url(../../../pictures/hero_section/Asus-ROG-Strix-Scar-3.jpg);
+  }
+  50% {
+    background-image: url(../../../pictures/hero_section/ipad_air_5_2022_ipad_pro_22321.jpg);
+  }
+  75% {
+    background-image: url(../../../pictures/hero_section/iPhone_16_Pro_iPhone_16_Pro_Max_3.jpg);
+  }
+  100% {
+    background-image: url(../../../pictures/hero_section/razer-basilisk-v2-1500x1000_gallery_02_0_large.jpg);
+  }
+}
+
+@keyframes promo_sony {
+  0% {
+    background-image: url(../../../pictures/promo_sony/IMG_20220625_225242.jpg);
+  }
+  25% {
+    background-image: url(../../../pictures/promo_sony/IMG_6777.jpg);
+  }
+  50% {
+    background-image: url(../../../pictures/promo_sony/maxresdefault.jpg);
+  }
+  75% {
+    background-image: url(../../../pictures/promo_sony/sony-wh-1000xm5-review-2022-18.jpg);
+  }
+  100% {
+    background-image: url(../../../pictures/promo_sony/Sony-WH-1000XM5-Wireless-Noise-Cancelling-silver.jpg);
+  }
+}
+
+@keyframes promo_asus {
+  0% {
+    background-image: url(../../../pictures/promo_asus/13166589_0_i1064.jpg);
+  }
+  25% {
+    background-image: url(../../../pictures/promo_asus/81AjoMj-H3L-1.jpg);
+  }
+  50% {
+    background-image: url(../../../pictures/promo_asus/81AjoMj-H3L-1.jpg);
+  }
+  75% {
+    background-image: url(../../../pictures/promo_asus/asus-rog-azoth-schwarz91796_01_3000px.jpg);
+  }
+  100% {
+    background-image: url(../../../pictures/promo_asus/LD0006211568.jpg);
+  }
+}
+
+@keyframes bottom {
+  0% {
+    background-image: url(../../../pictures/bottom_section/best-graphics-card.jpg);
+  }
+  25% {
+    background-image: url(../../../pictures/bottom_section/kartinki-geimera-1.jpg);
+  }
+  50% {
+    background-image: url(../../../pictures/bottom_section/Photo-tips-SummerPhotography_Banner.jpeg);
+  }
+  75% {
+    background-image: url(../../../pictures/bottom_section/scale_1200_hu_ed59dc656007285f.jpg);
+  }
+  100% {
+    background-image: url(../../../pictures/bottom_section/webOS-Hub_FI2-e1676534881745.png);
+  }
+}
+
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 0.9em;
+  background-color: var(--button-color);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--link-hover-color);
+  color: #fff;
+}
+
+.btn_actions {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin: 15px;
+}
+
+.promo_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.promo_image {
+  width: 50%;
+  height: auto;
+}
+
+.promo_content {
+  padding: 20px;
+  text-align: left;
+}
+
+.promo_title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.promo_text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .description {
+    width: 100%;
+  }
+  .hero,
+  .promo_sony,
+  .promo_asus,
+  .bottom {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section_wrapper_brands.dark,
+  .section_wrapper_brands.light,
+  .section_wrapper_categories.dark,
+  .section_wrapper_categories.light {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .review {
+    font-size: 0.7em;
+  }
+  .main_text {
+    font-size: 1.5em;
+  }
+  .text {
+    font-size: 1.1em;
+  }
+  .button {
+    font-size: 0.7em;
+  }
+  .promo_title {
+    font-size: 1.1em;
+  }
+
+  .promo_text {
+    font-size: 1.1em;
+  }
+}

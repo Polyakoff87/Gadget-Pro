@@ -1,0 +1,31 @@
+.private_wrapper {
+  margin-top: 7px;
+}
+
+.private_button {
+  height: 42px;
+  width: 42px;
+  background-color: var(--button-color);
+  background-image: url("../../../pictures/private.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+}
+
+.private_button:hover {
+  background-color: var(--link-hover-color);
+  cursor: pointer;
+}
+
+.private_output {
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .private_output {
+    font-size: 15px;
+  }
+}

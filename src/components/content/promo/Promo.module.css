@@ -1,0 +1,108 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 55px;
+  min-height: 60vh;
+  width: 100%;
+  background-image: url(../../../pictures/main_fon.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cardContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.cardList.dark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  width: 70%;
+  height: auto;
+  background-color: rgba(23, 25, 26, 0.9);
+}
+
+.cardList.light {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  width: 70%;
+  height: auto;
+  background-color: rgba(200, 205, 207, 0.9);
+}
+
+.cardList:hover {
+  transform: scale(0.99);
+}
+
+.cardImageWrapper {
+  width: 400px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cardContent {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.cardTitle {
+  font-size: 1.05em;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.cardDescription {
+  font-size: 20px;
+  line-height: 1.5;
+  transition: all 0.3s ease;
+  text-align: justify;
+  margin: 20px;
+}
+
+.cardDescription:hover {
+  color: var(--link-hover-color);
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: -130px 0 20px 0;
+}
+
+@media (max-width: 1200px) {
+  .cardImageWrapper {
+    display: none;
+  }
+}
