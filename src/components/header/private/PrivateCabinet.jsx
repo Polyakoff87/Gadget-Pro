@@ -47,18 +47,18 @@ export default function PrivateCabinet() {
   const handleConfirmOrder = async (orderId) => {
     try {
       await confirmOrder({ userId: user.id, orderId }).unwrap();
-      setPopupMessage("Order confirmed and moved to history!");
+      setPopupMessage("Заказ подтвержден.");
     } catch (err) {
-      setPopupMessage("Failed to confirm order. Please try again.");
+      setPopupMessage("Ошибка подтверждения заказа. Попробуйте позже.");
     }
   };
 
   const handleCancelOrder = async (orderId) => {
     try {
       await cancelOrder({ userId: user.id, orderId }).unwrap();
-      setPopupMessage("Order canceled successfully!");
+      setPopupMessage("Заказ отменен");
     } catch (err) {
-      setPopupMessage("Failed to cancel order. Please try again.");
+      setPopupMessage("Ошибка отмены заказа. Попробуйте позже.");
     }
   };
 
